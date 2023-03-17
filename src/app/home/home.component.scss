@@ -1,0 +1,15 @@
+.chatBot-left {
+  width: 25%;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  border: black solid 1px;
+  box-shadow: 1px 1px #7b8fa1;
+}
+
+.chatBot-right {
+  width: 75%;
+  height: 100vh;
+  position: absolute;
+  right: 0%;
+}

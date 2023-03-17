@@ -1,0 +1,21 @@
+<header>
+  <h1 class="nice-font" id="h">Desk chat</h1>
+</header>
+
+<main class="nice-font"></main>
+
+<div id="last"></div>
+
+<footer>
+  <div id="command">
+    <input
+      [(ngModel)]="question"
+      #inputMessage
+      placeholder="Input command here "
+      type="text"
+    />
+    <button class="shadow nice-font" (click)="send(inputMessage.value)">
+      ∆
+    </button>
+  </div>
+</footer>
